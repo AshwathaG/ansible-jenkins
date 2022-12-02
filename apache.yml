@@ -9,5 +9,5 @@
     - name: Copy your index file
       template:
         src: "index.html"
-        dest: "/var/www/{{ http_host }}/index.html"
+        dest: "/var/www/html/"
 ...
