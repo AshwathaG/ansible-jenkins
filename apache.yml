@@ -5,4 +5,9 @@
   tasks:
     - name: Install latest version of Apache
       apt: name=apache2 update_cache=yes state=latest
+      
+    - name: Copy your index file
+      template:
+        src: "files/index-template.html"
+        dest: "/var/www/{{ http_host }}/index.html"
 ...
