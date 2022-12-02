@@ -8,6 +8,6 @@
       
     - name: Copy your index file
       template:
-        src: "files/index-template.html"
+        src: "index.html"
         dest: "/var/www/{{ http_host }}/index.html"
 ...
