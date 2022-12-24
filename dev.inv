@@ -1,6 +1,3 @@
 [webservers]
-172.31.5.42
+172.31.5.31
 
-[webservers:vars]
-ansible_ssh_user=ec2-user
-ansible_ssh_pass=eve@1234
