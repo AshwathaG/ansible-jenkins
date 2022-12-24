@@ -4,7 +4,7 @@
   become: yes
   tasks:
     - name: Install latest version of Apache
-      yum: name=apache2 update_cache=yes state=latest
+      command: sudo yum install -y apache2
       
     - name: Copy your index file
       template:
