@@ -3,7 +3,7 @@
   hosts: webservers
   tasks:
     - name: Install latest version of Apache
-      command: sudo yum install -y httpd
+      command: sudo mkdir /home/ec2-user/pqwe
       
     - name: Copy your index file
       template:
