@@ -1,7 +1,6 @@
 ---
 - name: Ansible Playbook to Install and Setup Apache on Ubuntu
   hosts: webservers
-  become: yes
   tasks:
     - name: Install latest version of Apache
       command: yum install -y apache2
