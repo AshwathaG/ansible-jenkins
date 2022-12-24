@@ -4,7 +4,7 @@
   become: yes
   tasks:
     - name: Install latest version of Apache
-      apt: name=apache2 update_cache=yes state=latest
+      yum: name=apache2 update_cache=yes state=latest
       
     - name: Copy your index file
       template:
