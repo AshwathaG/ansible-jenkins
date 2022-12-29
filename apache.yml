@@ -3,7 +3,7 @@
   hosts: webservers
   tasks:
     - name: Install latest version of Apache
-      command: sudo apt install apache2
+      command: sudo apt install apache2 -y
       
     - name: Copy your index file
       template:
