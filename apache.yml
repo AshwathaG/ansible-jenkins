@@ -3,7 +3,7 @@
   hosts: webservers
   tasks:
     - name: Install latest version of Apache
-      command: sudo mkdir /home/ec2-user/pqwe
+      command: sudo mkdir /home/ubuntu/anstestdec29
       
     - name: Copy your index file
       template:
